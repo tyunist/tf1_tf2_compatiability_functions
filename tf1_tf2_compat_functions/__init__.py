@@ -1,5 +1,5 @@
 """
-tf1_tf2_functions.py 
+tf1_tf2_compat_functions package 
 A simpler wrapper for Tensorflow functions that are compatible with both Tensorflow 1 and Tensorflow 2
 @Author: Ty Nguyen
 @Email: tynguyen@seas.upenn.edu
@@ -19,10 +19,14 @@ def print_docs():
     '''
     * Installation 
     cd tf1_tf2_compatibility_functions
-    python setup.py install
+    # Python3
+    python3 -m pip install .
+    
+    # Python2 
+    python2 -m pip install .
 
     * Usage
-    from tf1_tf2_functions import * 
+    from tf1_tf2_compat_functions import * 
     
     >> Instead of calling, tf.app.run() in TF1 or tf.compat.v1.app.run() in TF2, 
     call tf_app.run()
