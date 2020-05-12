@@ -1,7 +1,7 @@
 # tf1_tf2_compat_functions package 
 A simpler wrapper for Tensorflow functions that are compatible with both Tensorflow 1 and Tensorflow 2
-@Author: Ty Nguyen
-@Email: tynguyen@seas.upenn.edu
+* Author: Ty Nguyen
+* Email: tynguyen@seas.upenn.edu
     
 # Installation 
 ```
