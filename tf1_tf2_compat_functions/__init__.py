@@ -10,9 +10,15 @@ import tensorflow as tf
 if int(tf.__version__[0]) == 2:                                                                                                              
     tf_app = tf.compat.v1.app                                                                                                           
     tf_io  = tf.io                                                                                                          
+    
+    # gfile
+    tf_gfile = tf_io.gfile 
 else:                                                                                                                     
     tf_app = tf.app                                                                                                                            
     tf_io  = tf.python_io
+    
+    # gfile
+    tf_gfile = tf.gfile 
 
 
 def print_docs(): 
